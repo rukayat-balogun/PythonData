@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn import svm
 
+#This is updated
 # Read the data
 train = np.loadtxt(open("train.csv","rb"), delimiter=",", skiprows=0)
 trainLabels = np.loadtxt(open("trainLabels.csv","rb"), delimiter=",", skiprows=0)
