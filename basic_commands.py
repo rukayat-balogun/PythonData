@@ -15,6 +15,11 @@
 list1 = ['1', '2', '3']
 str1 = ''.join(list1)
 
+
+#convert a list to set
+list2 = set(list1)
+
+
 Or if the list is of integers, convert the elements before joining them.
 
 list1 = [1, 2, 3]
